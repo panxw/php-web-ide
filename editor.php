@@ -436,6 +436,9 @@ iotop -obn1</pre>
 	if(isset($BRANDING_FOOTER))echo $BRANDING_FOOTER;
 ?>
 <script src="?js=0.0.1"></script>
-<?php if(isset($_POST['shell']))echo '<script>$(function(){$(".shellButton").triggerHandler("click");});</script>'; // If was postback then shell form is already open so need to trigger click to init form events ?>
+<?php 
+if(isset($_POST['shell']))
+	echo '<script>$(function(){$(".shellButton").triggerHandler("click");});</script>'; // If was postback then shell form is already open so need to trigger click to init form events 
+?>
 </body>
 </html>
