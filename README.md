@@ -15,6 +15,3 @@ deploy code to server.
 
 #### 3. test
 visit http://ip:port/xxdir/login.php to login.
-
-#### 4.done
-Have fun!
