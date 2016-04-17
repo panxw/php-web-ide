@@ -22,9 +22,9 @@
         <div style="margin:8px 2px;">
             <div style="float:left;width:8%;margin-top:20px;text-align:center">
                 <div class="btn-group-vertical" role="group">
-                    <input type="button" class="btn btn-default" value="起始" onclick="javascript:window.location.href='index.php'"/>
-                    <input type="button" class="btn btn-default" value="后退" onclick="window.history.go(-1)"/>
-                    <input type="button" class="btn btn-default" value="前进" onclick="window.history.go(1)"/>
+                    <input type="button" class="btn btn-default" value="Home" onclick="javascript:window.location.href='index.php'"/>
+                    <input type="button" class="btn btn-default" value="Back" onclick="window.history.go(-1)"/>
+                    <input type="button" class="btn btn-default" value="Foward" onclick="window.history.go(1)"/>
                 </div>
                 
                 <br/>
