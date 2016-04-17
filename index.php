@@ -5,7 +5,7 @@
         //setcookie('editor-auth','',time()-3600,'/editor.php');
         unset($_SESSION['username']);
         session_destroy();
-        header("Location: /login.php");
+        header("Location: ./login.php");
         exit();
     }
 ?>
